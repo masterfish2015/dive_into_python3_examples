@@ -53,4 +53,8 @@ def plural(noun):
     '''
     for match_rule, apply_rule in rules:
         if match_rule(noun):
-            apply_rule(noun)
+            return apply_rule(noun)
+
+if __name__ == "__main__" :
+    print(plural("agency"))
+    print(plural("boy"))
