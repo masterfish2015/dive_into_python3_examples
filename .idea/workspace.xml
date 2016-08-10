@@ -4,11 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/plural3.py" line="12" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="811d7dcd-2025-400c-b4d2-41d6bfdea9ed" name="Default" comment="增加plural4，采用从文件读取生成匹配函数的方法">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/ldc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fibonacci.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plural5.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plural6.py" />
+    <list default="true" id="811d7dcd-2025-400c-b4d2-41d6bfdea9ed" name="Default" comment="plural6, 采用类迭代生成器的方式来生成匹配函数">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="dive into python3.iws" />
@@ -34,7 +30,7 @@
         <entry file="file://$PROJECT_DIR$/plural6.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.8221071">
-              <caret line="45" column="19" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
+              <caret line="46" column="21" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -414,7 +410,8 @@
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <MESSAGE value="增加plural3，采用自动生成匹配函数的方法" />
     <MESSAGE value="增加plural4，采用从文件读取生成匹配函数的方法" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加plural4，采用从文件读取生成匹配函数的方法" />
+    <MESSAGE value="plural6, 采用类迭代生成器的方式来生成匹配函数" />
+    <option name="LAST_COMMIT_MESSAGE" value="plural6, 采用类迭代生成器的方式来生成匹配函数" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -493,7 +490,7 @@
     <entry file="file://$PROJECT_DIR$/plural6.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.8221071">
-          <caret line="45" column="19" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
+          <caret line="46" column="21" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
           <folding />
         </state>
       </provider>
