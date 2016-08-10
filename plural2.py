@@ -58,3 +58,4 @@ def plural(noun):
 if __name__ == "__main__" :
     print(plural("agency"))
     print(plural("boy"))
+    print ( plural ( "rule" ) )
