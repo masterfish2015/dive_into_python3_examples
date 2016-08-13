@@ -16,8 +16,15 @@ roman_numeral_map = (
     ('IV', 4),
     ('I',1))
 
+class OutOfRangeError(ValueError):
+    pass
+
+
 def to_roman(n):
     '''convert integer to Roman numeral '''
+    if n>3999:
+        raise OutOfRangeError('must be less than 4000')
+    
     result = ''
     for numeral, integer in roman_numeral_map:
         while n>= integer:
