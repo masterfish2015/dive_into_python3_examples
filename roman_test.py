@@ -93,6 +93,10 @@ class FromRomanBadInput(unittest.TestCase):
         '''from_roman should fail with blank string '''
         self.assertRaises(roman.InvalidRomanNumeralError, roman.from_roman, '')
 
+    def test_non_string_input(self):
+        '''from_roman should fail with non-string input '''
+        self.assertRaises(roman.InvalidRomanNumeralError, roman.from_roman, 123)
+
 
 if __name__ == '__main__':
     unittest.main()
