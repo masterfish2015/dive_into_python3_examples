@@ -1,0 +1,31 @@
+{
+  "title": "Dive into history, 2009 edition",
+  "published": true,
+  "published_date": [
+    2009,
+    3,
+    27,
+    22,
+    20,
+    42,
+    4,
+    86,
+    -1
+  ],
+  "comments_link": null,
+  "article_link": "http://diveintomark.org/xxxx",
+  "tags": [
+    "diveintopython",
+    "docbook",
+    "html"
+  ],
+  "internal_id": {
+    "__value__": [
+      222,
+      213,
+      180,
+      248
+    ],
+    "__class__": "bytes"
+  }
+}
